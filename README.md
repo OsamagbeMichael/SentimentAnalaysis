@@ -1,6 +1,7 @@
 📌 Sentiment Analysis on Social Media Using Python & AWS Comprehend
 
 🔍 Overview
+
 In the age of social media, brands, governments, and organizations struggle to understand public sentiment in real-time. This project uses Python and AWS Comprehend to analyze social media comments, classify sentiment, and extract insights from large-scale user discussions.
 
 While this project showcases  a product research use case, the same techniques can be applied to:
@@ -17,17 +18,17 @@ While this project showcases  a product research use case, the same techniques c
 
 🛠️ Tech Stack
 
-- Python – Data collection, processing, and analysis.
+✔️ Python – Data collection, processing, and analysis.
 
-- AWS Comprehend – Machine learning-based sentiment analysis.
+✔️ AWS Comprehend – Machine learning-based sentiment analysis.
 
-- Instaloader – Scraping social media data from Instagram.
+✔️ Instaloader – Scraping social media data from Instagram.
 
-- Pandas & NumPy – Data manipulation and analysis.
+✔️ Pandas & NumPy – Data manipulation and analysis.
 
-- Matplotlib & Seaborn – Data visualization.
+✔️ Matplotlib & Seaborn – Data visualization.
 
-- Boto3 – AWS SDK for Python to interact with AWS Comprehend.
+✔️ Boto3 – AWS SDK for Python to interact with AWS Comprehend.
 
 📌 Features
 
@@ -69,6 +70,7 @@ Using Seaborn and Matplotlib, we can visualize trends and insights.
 
 1️⃣ Clone the Repository
 git clone https://github.com/yourusername/Sentiment-Analysis-Social-Media.git
+
 cd Sentiment-Analysis-Social-Media
 
 2️⃣ Install Dependencies
@@ -86,4 +88,3 @@ python src/visualization.py
 
 
 
-Now, run the code, visualize the data, and uncover what people really think! 💡🔥
