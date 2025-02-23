@@ -22,9 +22,13 @@ Boto3 – AWS SDK for Python to interact with AWS Comprehend.
 📌 Features
 
 ✅ Scrape Social Media Data – Extract comments, hashtags, and engagement metrics.
+
 ✅ Perform Sentiment Analysis – Classify text as positive, negative, neutral, or mixed using AWS Comprehend.
+
 ✅ Visualize Sentiment Trends – Generate insights on how sentiment changes over time.
+
 ✅ Compare Content Performance – Analyze engagement differences between post types (Reels, images, videos).
+
 ✅ Adaptable to Any Use Case – Works for politics, finance, tech trends, or social issues beyond sneaker brands.
 
 📂 Project Structure
@@ -72,12 +76,6 @@ cd Sentiment-Analysis-Social-Media
 pip install -r requirements.txt
 3️⃣ Set Up AWS Credentials
 Create an AWS IAM user with Comprehend permissions.
-Store credentials in config.json:
-{
-  "aws_access_key": "your_access_key",
-  "aws_secret_key": "your_secret_key",
-  "region": "us-east-1"
-}
 4️⃣ Run Sentiment Analysis
 python src/sentiment_analysis.py
 5️⃣ Visualize Results
