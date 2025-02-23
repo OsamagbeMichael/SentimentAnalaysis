@@ -54,27 +54,23 @@ By leveraging natural language processing (NLP) and data visualization, this pro
 
 🚀 How It Works
 
-1️⃣ Scraping Social Media Data
-We use Instaloader to extract comments from Instagram posts. This step can be replaced with Twitter, YouTube, or Reddit for different applications.
+1️⃣ Scraping Social Media Data :- We use Instaloader to extract comments from Instagram posts. This step can be replaced with Twitter, YouTube, or Reddit for different applications.
 
-2️⃣ Sentiment Analysis with AWS Comprehend
-AWS Comprehend allows us to classify text sentiment using pre-trained NLP models.
+2️⃣ Sentiment Analysis with AWS Comprehend :- AWS Comprehend allows us to classify text sentiment using pre-trained NLP models.
 
 
-3️⃣ Data Visualization
-Using Seaborn and Matplotlib, we can visualize trends and insights.
+3️⃣ Data Visualization :- Using Seaborn and Matplotlib, we can visualize trends and insights.
 
 
 📌 Getting Started
 
 1️⃣ Clone the Repository
-git clone https://github.com/yourusername/Sentiment-Analysis-Social-Media.git
-
-cd Sentiment-Analysis-Social-Media
+ ```  git clone https://github.com/yourusername/Sentiment-Analysis-Social-Media.git
+      cd Sentiment-Analysis-Social-Media ``` 
 
 2️⃣ Install Dependencies by typing this on the terminal:
 
-pip install -r requirements.txt
+``` pip install -r requirements.txt``` 
 
 3️⃣ Set Up your AWS Credentials
 
@@ -82,10 +78,10 @@ Create an AWS IAM user with Comprehend permissions.
 
 4️⃣ Run Sentiment Analysis :
 
-python src/sentiment_analysis.py
+``` python src/sentiment_analysis.py ``` 
 
 5️⃣ Visualize Results :  
 
-python src/visualization.py
+```  python src/visualization.py ``` 
 
 
