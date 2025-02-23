@@ -2,7 +2,7 @@
 
 🔍 Overview
 
-In the age of social media, brands, governments, and organizations struggle to understand public sentiment in real-time. This project uses Python and AWS Comprehend to analyze social media comments, classify sentiment, and extract insights from large-scale user discussions.
+This project uses Python and AWS Comprehend to analyze social media comments, classify sentiment, and extract insights from large-scale user discussions.
 
 While this project showcases  a product research use case, the same techniques can be applied to:
 
@@ -13,8 +13,7 @@ While this project showcases  a product research use case, the same techniques c
 - Market sentiment analysis (e.g., stock price predictions based on Twitter data).
 
 - Geopolitical tensions & diplomatic relations (e.g., U.S.-China relations).
-
-- By leveraging natural language processing (NLP) and data visualization, this project helps organizations make data-driven decisions.
+By leveraging natural language processing (NLP) and data visualization, this project helps organizations make data-driven decisions.
 
 🛠️ Tech Stack
 
@@ -73,18 +72,20 @@ git clone https://github.com/yourusername/Sentiment-Analysis-Social-Media.git
 
 cd Sentiment-Analysis-Social-Media
 
-2️⃣ Install Dependencies
+2️⃣ Install Dependencies by typing this on the terminal:
+
 pip install -r requirements.txt
 
-3️⃣ Set Up AWS Credentials
+3️⃣ Set Up your AWS Credentials
+
 Create an AWS IAM user with Comprehend permissions.
 
-4️⃣ Run Sentiment Analysis
+4️⃣ Run Sentiment Analysis :
+
 python src/sentiment_analysis.py
 
-5️⃣ Visualize Results
-python src/visualization.py
-📢 Contributing
+5️⃣ Visualize Results :  
 
+python src/visualization.py
 
 
