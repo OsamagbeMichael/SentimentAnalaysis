@@ -65,12 +65,12 @@ By leveraging natural language processing (NLP) and data visualization, this pro
 📌 Getting Started
 
 1️⃣ Clone the Repository
- ```  git clone https://github.com/yourusername/Sentiment-Analysis-Social-Media.git
-      cd Sentiment-Analysis-Social-Media ``` 
+     git clone https://github.com/yourusername/Sentiment-Analysis-Social-Media.git
+      cd Sentiment-Analysis-Social-Media 
 
 2️⃣ Install Dependencies by typing this on the terminal:
 
-``` pip install -r requirements.txt``` 
+     pip install -r requirements.txt
 
 3️⃣ Set Up your AWS Credentials
 
@@ -78,10 +78,10 @@ Create an AWS IAM user with Comprehend permissions.
 
 4️⃣ Run Sentiment Analysis :
 
-``` python src/sentiment_analysis.py ``` 
+  python src/sentiment_analysis.py  
 
 5️⃣ Visualize Results :  
 
-```  python src/visualization.py ``` 
+  python src/visualization.py  
 
 
